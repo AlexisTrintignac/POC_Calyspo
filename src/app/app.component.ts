@@ -12,6 +12,7 @@ export class AppComponent implements OnInit{
   title = 'Poc-Calyspo-App';
 
   public dispositifList : Dispositif[] = [];
+  public dispositifSelected : Dispositif[] = [];
 
   constructor(private primengConfig: PrimeNGConfig, private dispositifController: DispositifController){
     
@@ -28,13 +29,16 @@ export class AppComponent implements OnInit{
   public getDispositif(): void{
     // this.dispositifController.getDispositifs().subscribe((dispoController : Dispositif[])=> {
     //   this.dispositifList = dispoController;
-    // });
+    /// });
 
-    this.dispositifController.getJSON().subscribe((elmt: any)=>{
-      console.log(elmt);
+    this.dispositifController.getJSON().subscribe((elmt: Dispositif[])=>{
       this.dispositifList = elmt;
       console.log(this.dispositifList);
     });
+  }
+
+  public displayRowSelected(): void {
+    console.log(this.dispositifSelected);
   }
 }
 

@@ -8,6 +8,7 @@ import {AccordionModule} from 'primeng/accordion';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {TableModule} from 'primeng/table';
 import { HttpClientModule } from '@angular/common/http';
+import {ButtonModule} from 'primeng/button';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     AccordionModule,
     BrowserAnimationsModule,
     TableModule,
-    HttpClientModule
+    HttpClientModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

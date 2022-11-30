@@ -28,6 +28,10 @@ import { Dispositif } from "../Models/Dispositif";
         return this.http.get("../../assets/DispositifsJson.json");
     }
 
+    public sendDispositif(dispositifList: Dispositif[]): Observable<any> {
+      return this.http.post(this.apiURL + '/dispositifs',{dispositifList})
+  }
+
       handleError(error: any) {
         let errorMessage = '';
         if (error.error instanceof ErrorEvent) {

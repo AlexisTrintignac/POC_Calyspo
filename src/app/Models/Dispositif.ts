@@ -1,14 +1,12 @@
 export class Dispositif {
 
-    private idDispositif: number;
-    private measure: string;
-    private dispositif: string;
-    // private isIncompatibilite = false;
+    public idDispositif: number;
+    public measure: string;
+    public dispositif: string;
 
-    constructor(idDispositif: number, measure: string, dispositif: string, isIncompatibilite: boolean){
+    constructor(idDispositif: number, measure: string, dispositif: string) {
         this.idDispositif = idDispositif;
         this.dispositif = dispositif;
         this.measure = measure;
-        // this.isIncompatibilite = false;
     }
 }

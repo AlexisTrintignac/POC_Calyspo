@@ -1,5 +1,11 @@
 [
 {"idDispositif":1,"measure":"accès et retour a l'emploi","dispositif":"AI"},
 {"idDispositif":2,"measure":"accès et retour a l'emploi","dispositif":"BH"},
-{"idDispositif":3,"measure":"accès et retour a l'emploi","dispositif":"ZZ"}
+{"idDispositif":3,"measure":"accès et retour a l'emploi","dispositif":"ZZ"},
+{"idDispositif":4,"measure":"accès et retour a l'emploi","dispositif":"AA"},
+{"idDispositif":5,"measure":"accès et retour a l'emploi","dispositif":"BB"},
+{"idDispositif":6,"measure":"accès et retour a l'emploi","dispositif":"CC"},
+{"idDispositif":7,"measure":"accès et retour a l'emploi","dispositif":"DD"},
+{"idDispositif":8,"measure":"accès et retour a l'emploi","dispositif":"EE"},
+{"idDispositif":9,"measure":"accès et retour a l'emploi","dispositif":"FF"}
 ]
