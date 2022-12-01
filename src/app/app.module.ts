@@ -9,11 +9,13 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {TableModule} from 'primeng/table';
 import { HttpClientModule } from '@angular/common/http';
 import {ButtonModule} from 'primeng/button';
+import { PocTableComponent } from './Entities/poc-table/poc-table.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PocTableComponent
   ],
   imports: [
     BrowserModule,
