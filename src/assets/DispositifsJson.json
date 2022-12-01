@@ -1,11 +1,11 @@
 [
-{"idDispositif":1,"measure":"accès et retour a l'emploi","dispositif":"AI"},
-{"idDispositif":2,"measure":"accès et retour a l'emploi","dispositif":"BH"},
-{"idDispositif":3,"measure":"accès et retour a l'emploi","dispositif":"ZZ"},
-{"idDispositif":4,"measure":"accès et retour a l'emploi","dispositif":"AA"},
-{"idDispositif":5,"measure":"accès et retour a l'emploi","dispositif":"BB"},
-{"idDispositif":6,"measure":"accès et retour a l'emploi","dispositif":"CC"},
-{"idDispositif":7,"measure":"accès et retour a l'emploi","dispositif":"DD"},
-{"idDispositif":8,"measure":"accès et retour a l'emploi","dispositif":"EE"},
-{"idDispositif":9,"measure":"accès et retour a l'emploi","dispositif":"FF"}
+{"idDispositif":1,"measure":"accès et retour a l'emploi","dispositif":"AI", "programme": "programme 1"},
+{"idDispositif":2,"measure":"accès et retour a l'emploi","dispositif":"BH", "programme": "programme 2"},
+{"idDispositif":3,"measure":"accès et retour a l'emploi","dispositif":"ZZ", "programme": "programme 3"},
+{"idDispositif":4,"measure":"accès et retour a l'emploi","dispositif":"AA", "programme": "programme 4"},
+{"idDispositif":5,"measure":"accès et retour a l'emploi","dispositif":"BB", "programme": "programme 5"},
+{"idDispositif":6,"measure":"accès et retour a l'emploi","dispositif":"CC", "programme": "programme 6"},
+{"idDispositif":7,"measure":"accès et retour a l'emploi","dispositif":"DD", "programme": "programme 7"},
+{"idDispositif":8,"measure":"accès et retour a l'emploi","dispositif":"EE", "programme": "programme 8"},
+{"idDispositif":9,"measure":"accès et retour a l'emploi","dispositif":"FF", "programme": "programme 1"}
 ]

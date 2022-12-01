@@ -33,7 +33,6 @@ export class AppComponent implements OnInit{
 
     this.dispositifController.getJSON().subscribe((elmt: Dispositif[])=>{
       this.dispositifList = elmt;
-      console.log(this.dispositifList);
     });
   }
 
