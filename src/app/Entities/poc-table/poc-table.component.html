@@ -1,0 +1,43 @@
+<p-table [value]="dispositifList" dataKey="idDispositif" [(selection)]="dispositifSelected" [metaKeySelection]="true" 
+[paginator]="true" [rows]="5" [rowsPerPageOptions]="[2,5,10]" [selectionPageOnly]="true" [tableStyle]="{'min-width': '50rem'}">
+  <ng-template pTemplate="header">
+      <tr>
+          <th style="width: 4rem">
+              <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+          </th>
+          <th style="min-width:200px" pSortableColumn="programme">
+            <div class="flex justify-content-center align-items-center">
+                Programme
+                <p-columnFilter type="text" field="programme" display="menu"></p-columnFilter>
+                <p-sortIcon field="programme"></p-sortIcon>
+            </div>
+          </th>
+          <th style="min-width:200px" pSortableColumn="measure">
+            <div class="flex justify-content-center align-items-center">
+                Mesure
+                <p-columnFilter type="text" field="measure" display="menu"></p-columnFilter>
+                <p-sortIcon field="measure"></p-sortIcon>
+            </div>
+          </th>
+          <th style="min-width:200px" pSortableColumn="dispositif">
+            <div class="flex justify-content-center align-items-center">
+                Dispositif
+                <p-columnFilter type="text" field="dispositif" display="menu"></p-columnFilter>
+                <p-sortIcon field="dispositif"></p-sortIcon>
+            </div>
+          </th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-dispo let-rowIndex="rowIndex">
+      <tr>
+          <td>
+              <p-tableCheckbox [value]="dispo"></p-tableCheckbox>
+          </td>
+          <td>{{dispo.programme}}</td>
+          <td>{{dispo.measure}}</td>
+          <td>{{dispo.dispositif}}</td>
+      </tr>
+  </ng-template>
+</p-table>
+
+<button pButton pRipple type="button" (click)="displayRowSelected()" label="Valider"></button>
